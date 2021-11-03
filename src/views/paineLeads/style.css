@@ -1,0 +1,77 @@
+.container-painelleads {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.border-painelleads {
+  width: 70%;
+  min-height: 600px;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 1);
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.table-painelleads {
+  border: 1px solid black;
+  margin: 45px;
+  width: 90%;
+  height: 60px;
+  border-collapse: collapse;
+}
+.table-painelleads td {
+  height: 60px;
+  border: 1px solid black;
+  font-family: 'Roboto', sans-serif;
+}
+
+.table-head {
+  background-color: rgb(126, 125, 121);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 45px;
+  width: 30%;
+  height: 65px;
+  border: 1px solid black;
+}
+
+.table-head th {
+  border: 1px solid black;
+}
+
+.btn-painelleads {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(12, 110, 202);
+  width: 35%;
+  height: 55px;
+  margin: 45px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
